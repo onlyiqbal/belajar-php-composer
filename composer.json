@@ -1,0 +1,21 @@
+{
+    "name": "iqbal/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "iqbal",
+            "email": "iqbalmenggala29@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Iqbal\\":"src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "iqbal/belajar-php-composer-hello" : "2.0.0",
+        "monolog/monolog" : "2.3.5"
+    }
+}
